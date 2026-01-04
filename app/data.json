@@ -1,0 +1,17 @@
+{
+  "easy": [
+    "The cat sat on the mat.",
+    "Practice makes perfect.",
+    "Keep it simple and clean."
+  ],
+  "medium": [
+    "JavaScript is a versatile language for web development.",
+    "React components make UI building much more organized.",
+    "Next.js provides a great developer experience out of the box."
+  ],
+  "hard": [
+    "const typingTest = () => { return 'Stay Cracked!'; };",
+    "Complexity is the enemy of execution; simplify everything.",
+    "The 127.0.0.1 loopback address is essential for local development."
+  ]
+}
