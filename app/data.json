@@ -1,17 +1,14 @@
 {
-  "easy": [
-    "The cat sat on the mat.",
-    "Practice makes perfect.",
-    "Keep it simple and clean."
+  "quotes": [
+    "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. You will know exactly when you find it.",
+    "Success is not final, failure is not fatal: it is the courage to continue that counts. The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every single difficulty."
   ],
-  "medium": [
-    "JavaScript is a versatile language for web development.",
-    "React components make UI building much more organized.",
-    "Next.js provides a great developer experience out of the box."
+  "code": [
+    "const [count, setCount] = useState(0); useEffect(() => { console.log('Updated:', count); }, [count]); return ( <button onClick={() => setCount(prev => prev + 1)}> Increment </button> );",
+    "async function fetchData(url) { try { const res = await fetch(url); const data = await res.json(); return data.filter(item => item.active); } catch (err) { console.error('Error:', err); } }"
   ],
-  "hard": [
-    "const typingTest = () => { return 'Stay Cracked!'; };",
-    "Complexity is the enemy of execution; simplify everything.",
-    "The 127.0.0.1 loopback address is essential for local development."
+  "lyrics": [
+    "Look, if you had one shot, or one opportunity, to seize everything you ever wanted in one moment. Would you capture it, or just let it slip? His palms are sweaty, knees weak.",
+    "Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality. Open your eyes, look up to the skies and see. I am just a poor boy."
   ]
 }
