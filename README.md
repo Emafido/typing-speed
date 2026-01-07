@@ -127,14 +127,14 @@ In future iterations of VELO and upcoming projects, I aim to focus on:
 
 ### Useful resources
 
-- React Refs Documentation(https://react.dev/learn/referencing-values-with-refs) - This was essential for understanding how to manipulate the DOM nodes for the auto-scroll feature.
-- Canvas Confetti Docs(https://github.com/catdad/canvas-confetti) - Helped me implement the high-score celebration effect efficiently without heavy libraries.
+- [React Refs Documentation](https://react.dev/learn/referencing-values-with-refs) - This was essential for understanding how to manipulate the DOM nodes for the auto-scroll feature.
+- [Canvas Confetti Docs](https://github.com/catdad/canvas-confetti) - Helped me implement the high-score celebration effect efficiently without heavy libraries.
 
 
 ## Author
-- Website - Emafido Emmanuel Aridon(https://emafido-emmanuel.vercel.app/)
-- Frontend Mentor - @Emafido(https://www.frontendmentor.io/profile/Emafido)
-- Twitter - @EmmanuelEmafido(https://x.com/EmmanuelEmafido)
+- Website - [Emafido Emmanuel Aridon](https://emafido-emmanuel.vercel.app/)
+- Frontend Mentor - [@Emafido](https://www.frontendmentor.io/profile/Emafido)
+- Twitter - [@EmmanuelEmafido](https://x.com/EmmanuelEmafido)
 
 ## Acknowledgments
 
