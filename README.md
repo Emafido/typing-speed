@@ -34,6 +34,8 @@ Users should be able to:
   <em>Desktop Landing Page</em>
 </p>
 
+<br>
+
 <p align="center">
   <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
   <br>
