@@ -34,10 +34,10 @@ Users should be able to:
 
 <em>Desktop Landing Page</em>
 <img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
-
+<br>
 <em>Typing Interface</em>
 <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
-<br>
+
 
 
 
@@ -89,14 +89,14 @@ useEffect(() => {
        });
     }
   }
-}, [userInput]);
+}, [userInput]); ```
 
 I also learned how to handle Audio objects in React efficiently. Initially, creating new Audio() instances on every keystroke caused lag and memory issues. I refactored this to use useRef, initializing the audio files once when the component mounts to ensure low-latency feedback without performance costs.
 
 // Efficient Audio Handling with useRef
 const successAudio = useRef<HTMLAudioElement | null>(null);
 
-useEffect(() => {
+```tsx useEffect(() => {
   // Load once on mount
   successAudio.current = new Audio("/success.mp3");
   successAudio.current.volume = 0.2;
@@ -107,7 +107,7 @@ const playSound = () => {
     successAudio.current.currentTime = 0; // Reset to start for rapid firing
     successAudio.current.play();
   }
-};
+};```
 
 ### Continued development
 
@@ -128,7 +128,7 @@ In future iterations of VELO and upcoming projects, I aim to focus on:
 
 ## Author
 
-- Website - [Emafido Emmanuel Aridon](https://emafido-emmanuel.vercel.app/)
+- Website-[Emafido Emmanuel Aridon](https://emafido-emmanuel.vercel.app/)
 - Frontend Mentor - [@Emafido](https://www.frontendmentor.io/profile/Emafido)
 - Twitter - [@EmmanuelEmafido](https://x.com/EmmanuelEmafido)
 
