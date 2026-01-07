@@ -78,15 +78,16 @@ const LandingPage = ({ onStart }: { onStart: () => void }) => {
         </p>
         <div className="animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
           <button
+            type="button"
             onClick={onStart}
             className="group relative px-8 py-4 bg-gray-900 text-white rounded-2xl sm:rounded-full font-bold transition-all hover:bg-black hover:scale-105 active:scale-95 shadow-xl shadow-gray-200"
           >
-            <div className="flex items-center gap-3">
+            <span className="flex items-center gap-3">
               <span className="text-xs uppercase tracking-[0.3em]">
                 Start Typing Test
               </span>
               <ArrowRight />
-            </div>
+            </span>
             <div className="absolute -inset-1 rounded-full bg-gray-400 opacity-20 group-hover:opacity-40 blur transition-opacity"></div>
           </button>
         </div>

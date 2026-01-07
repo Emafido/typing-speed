@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | VELO", 
   },
   
-  description: "Master your keystrokes with VELO. A minimalist, distraction-free typing speed test designed for developers and precision typists. Measure WPM, accuracy, and flow.",
+  description: "Master your keystrokes with VELO. A minimalist, distraction-free typing speed test designed for developers and precision typists.",
   
   applicationName: "VELO",
   
@@ -36,7 +36,6 @@ export const metadata: Metadata = {
     "developer typing tool", 
     "minimalist typing test", 
     "coding speed test",
-    "mechanical keyboard test",
     "typing practice"
   ],
 
@@ -49,11 +48,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://tspeed-fm30.vercel.app",
     title: "VELO | The Developer's Typing Engine",
-    description: "A professional typing speed test for developers. Measure your Words Per Minute (WPM) and accuracy with real-time analytics. Minimalist, fast, and distraction-free.",
+    description: "Measure your Words Per Minute (WPM) and accuracy with real-time analytics. Minimalist and fast.",
     siteName: "VELO",
     images: [
       {
-        url: "./screenshots/og-image.png", 
+        url: "/og-image.png", 
         width: 1200,
         height: 630,
         alt: "VELO Typing Interface",
@@ -65,19 +64,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VELO | High-Performance Typing Benchmark",
     description: "Test your WPM in a minimalist, distraction-free environment.",
-    images: ["./screenshots/og-image.png"], 
+    images: ["/og-image.png"], 
     creator: "@EmmanuelEmafido", 
   },
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   icons: {
     icon: "/favicon.ico",
@@ -85,6 +77,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{

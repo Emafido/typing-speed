@@ -239,6 +239,7 @@ const TypingEngine = () => {
         <div className="flex items-center justify-between w-full xl:w-auto gap-4">
             
           <button 
+            type="button"
              onClick={() => window.location.reload()}
              className="p-2 rounded-xl bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 transition-all text-gray-900 shadow-sm active:scale-95"
              title="Back"
@@ -253,12 +254,14 @@ const TypingEngine = () => {
           
           <div className="flex gap-2">
             <button 
+            type="button"
               onClick={() => setShowHistory(true)}
               className="p-2 rounded-xl bg-gray-50 border border-gray-100 hover:bg-gray-100 transition-all text-sm text-gray-600"
             >
               <HistoryIcon />
             </button>
             <button 
+            type="button"
               onClick={() => setIsMuted(!isMuted)}
               className="p-2 rounded-xl bg-gray-50 border border-gray-100 hover:bg-gray-100 transition-all text-sm text-gray-600"
             >
@@ -271,25 +274,25 @@ const TypingEngine = () => {
           <div className="flex gap-2 min-w-max">
             <div className="flex bg-gray-50 p-1 rounded-2xl border border-gray-100 items-center">
               {(["quotes", "code", "lyrics"] as Category[]).map((cat) => (
-                <button key={cat} onClick={() => resetTest(difficulty, cat)} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${category === cat ? "bg-white shadow-sm text-black" : "text-gray-400 hover:text-black"}`}>
+                <button type="button" key={cat} onClick={() => resetTest(difficulty, cat)} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${category === cat ? "bg-white shadow-sm text-black" : "text-gray-400 hover:text-black"}`}>
                   {cat.toUpperCase()}
                 </button>
               ))}
             </div>
             <div className="flex bg-gray-50 p-1 rounded-2xl border border-gray-100 items-center">
               {(["easy", "medium", "hard"] as Difficulty[]).map((level) => (
-                <button key={level} onClick={() => resetTest(level)} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${difficulty === level ? "bg-white shadow-sm text-black" : "text-gray-400 hover:text-black"}`}>
+                <button type="button" key={level} onClick={() => resetTest(level)} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${difficulty === level ? "bg-white shadow-sm text-black" : "text-gray-400 hover:text-black"}`}>
                   {level.toUpperCase()}
                 </button>
               ))}
             </div>
             <div className="flex bg-gray-50 p-1 rounded-2xl border border-gray-100 items-center">
               {[15, 30, 60].map((d) => (
-                <button key={d} onClick={() => { setIsTimedMode(true); resetTest(difficulty, category, d, true); }} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${isTimedMode && duration === d ? "bg-white shadow-sm text-black" : "text-gray-400"}`}>
+                <button type="button" key={d} onClick={() => { setIsTimedMode(true); resetTest(difficulty, category, d, true); }} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${isTimedMode && duration === d ? "bg-white shadow-sm text-black" : "text-gray-400"}`}>
                   {d}S
                 </button>
               ))}
-              <button onClick={() => { setIsTimedMode(false); resetTest(difficulty, category, duration, false); }} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${!isTimedMode ? "bg-white shadow-sm text-black" : "text-gray-400"}`}>
+              <button type="button" onClick={() => { setIsTimedMode(false); resetTest(difficulty, category, duration, false); }} className={`px-3 py-1.5 rounded-xl text-[10px] font-bold transition-all ${!isTimedMode ? "bg-white shadow-sm text-black" : "text-gray-400"}`}>
                 INF
               </button>
             </div>
@@ -341,7 +344,7 @@ const TypingEngine = () => {
       </div>
 
       <div className="flex justify-center pb-2 shrink-0">
-        <button onClick={() => resetTest()} className="group px-8 sm:px-14 py-3 sm:py-3.5 bg-gray-900 text-white rounded-full font-bold hover:bg-black transition-all active:scale-95 text-[10px] sm:text-xs tracking-[0.3em]">
+        <button type="button" onClick={() => resetTest()} className="group px-8 sm:px-14 py-3 sm:py-3.5 bg-gray-900 text-white rounded-full font-bold hover:bg-black transition-all active:scale-95 text-[10px] sm:text-xs tracking-[0.3em]">
           RESTART
         </button>
       </div>
@@ -358,7 +361,7 @@ const TypingEngine = () => {
               <div><p className="text-3xl sm:text-4xl font-black">{stats.wpm}</p><p className="text-[9px] text-gray-400 uppercase mt-1 tracking-widest">WPM</p></div>
               <div><p className="text-3xl sm:text-4xl font-black">{stats.accuracy}%</p><p className="text-[9px] text-gray-400 uppercase mt-1 tracking-widest">Accuracy</p></div>
             </div>
-            <button onClick={() => resetTest()} className="w-full py-4 bg-gray-900 text-white rounded-2xl font-bold hover:bg-black transition-all active:scale-95">
+            <button type="button" onClick={() => resetTest()} className="w-full py-4 bg-gray-900 text-white rounded-2xl font-bold hover:bg-black transition-all active:scale-95">
               DISMISS & RESTART
             </button>
           </div>
@@ -373,7 +376,7 @@ const TypingEngine = () => {
                   <h2 className="text-lg font-black tracking-tight">Access Logs</h2>
                   <p className="text-[10px] text-gray-400 uppercase tracking-widest">Recent Activity</p>
                </div>
-               <button onClick={() => setShowHistory(false)} className="p-2 bg-gray-50 rounded-full hover:bg-gray-100 transition-colors">
+               <button type="button" onClick={() => setShowHistory(false)} className="p-2 bg-gray-50 rounded-full hover:bg-gray-100 transition-colors">
                   <CloseIcon />
                </button>
             </div>
