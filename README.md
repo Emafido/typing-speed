@@ -32,15 +32,17 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./screenshots/scr2.png" alt="Desktop Landing Page" width="700">
-<br>
 <em>Desktop Landing Page</em>
+<img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
+<br>
+
 
 <br>
 
+<em>Typing Interface</em>
 <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
 <br>
-<em>Typing Interface</em>
+
 
 
 ### Links
@@ -132,6 +134,7 @@ In future iterations of VELO and upcoming projects, I aim to focus on:
 
 
 ## Author
+
 - Website - [Emafido Emmanuel Aridon](https://emafido-emmanuel.vercel.app/)
 - Frontend Mentor - [@Emafido](https://www.frontendmentor.io/profile/Emafido)
 - Twitter - [@EmmanuelEmafido](https://x.com/EmmanuelEmafido)
