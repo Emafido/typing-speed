@@ -28,13 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-<em>Desktop Landing Page</em>  
-<img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
+![Desktop Landing Page](./screenshots/og-image.png)
+*Desktop Landing Page*
 
-<br>
-
-<em>Typing Interface</em>  
-<img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
+![Typing Interface](./screenshots/scr1.png)
+*Typing Interface*
 
 ### Links
 
