@@ -28,19 +28,16 @@ Users should be able to:
 
 ### Screenshot
 
-<p align="center">
+
   <img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
   <br>
   <em>Desktop Landing Page</em>
-</p>
 
 <br>
 
-<p align="center">
   <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
   <br>
   <em>Typing Interface</em>
-</p>
 
 ### Links
 
