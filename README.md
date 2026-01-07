@@ -28,16 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
+<em>Typing Interface</em>  
+<img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
 
-  <img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
-  <br>
-  <em>Desktop Landing Page</em>
+<em>Desktop Landing Page</em>  
+<img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
 
 <br>
 
-  <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
-  <br>
-  <em>Typing Interface</em>
+
 
 ### Links
 
