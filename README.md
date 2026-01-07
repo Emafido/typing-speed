@@ -34,8 +34,6 @@ Users should be able to:
 
 <em>Desktop Landing Page</em>
 <img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
-<br>
-
 
 <em>Typing Interface</em>
 <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
@@ -122,8 +120,6 @@ In future iterations of VELO and upcoming projects, I aim to focus on:
 3.  **Advanced Accessibility (a11y):** While the app is keyboard navigable, I want to refine the experience for screen reader users, specifically ensuring that the dynamic updates of the active character and live statistics are announced correctly without overwhelming the user (using `aria-live` regions more effectively).
 
 4.  **Testing methodologies:** I plan to incorporate Unit Testing (with **Jest**) and End-to-End testing (with **Playwright**) to ensure the reliability of the typing engine logic as the application grows in complexity.
-
-
 
 ### Useful resources
 
