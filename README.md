@@ -37,8 +37,6 @@ Users should be able to:
 <br>
 
 
-<br>
-
 <em>Typing Interface</em>
 <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
 <br>
@@ -131,7 +129,6 @@ In future iterations of VELO and upcoming projects, I aim to focus on:
 
 - [React Refs Documentation](https://react.dev/learn/referencing-values-with-refs) - This was essential for understanding how to manipulate the DOM nodes for the auto-scroll feature.
 - [Canvas Confetti Docs](https://github.com/catdad/canvas-confetti) - Helped me implement the high-score celebration effect efficiently without heavy libraries.
-
 
 ## Author
 
