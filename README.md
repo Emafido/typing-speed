@@ -1,21 +1,22 @@
-````md
 # Frontend Mentor - Typing Speed Test solution
 
 This is a solution to the [Typing Speed Test challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/typing-speed-test). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Typing Speed Test solution](#frontend-mentor---typing-speed-test-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -23,34 +24,34 @@ This is a solution to the [Typing Speed Test challenge on Frontend Mentor](https
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+* View the optimal layout for the interface depending on their device's screen size
+* See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![Desktop Landing Page](./screenshots/og-image.png)
-*Desktop Landing Page*
+<em>Desktop Landing Page</em> <img src="./screenshots/og-image.png" alt="Desktop Landing Page" width="700">
 
-![Typing Interface](./screenshots/scr1.png)
-*Typing Interface*
+<br>
+
+<em>Typing Interface</em> <img src="./screenshots/scr1.png" alt="Typing Interface" width="700">
 
 ### Links
 
-- Solution URL: https://github.com/Emafido/typing-speed  
-- Live Site URL: https://tspeed-fm30.vercel.app/
+* Solution URL: [https://github.com/Emafido/typing-speed](https://github.com/Emafido/typing-speed)
+* Live Site URL: [https://tspeed-fm30.vercel.app/](https://tspeed-fm30.vercel.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox and CSS Grid
-- Mobile-first workflow
-- [React](https://react.dev/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [TypeScript](https://www.typescriptlang.org/) - For static typing
-- [Tailwind CSS](https://tailwindcss.com/) - For styling
-- [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti) - For visual effects
+* Semantic HTML5 markup
+* Flexbox and CSS Grid
+* Mobile-first workflow
+* [React](https://react.dev/) - JS library
+* [Next.js](https://nextjs.org/) - React framework
+* [TypeScript](https://www.typescriptlang.org/) - For static typing
+* [Tailwind CSS](https://tailwindcss.com/) - For styling
+* [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti) - For visual effects
 
 ### What I learned
 
@@ -85,7 +86,7 @@ useEffect(() => {
     }
   }
 }, [userInput]);
-````
+```
 
 I also learned how to handle `Audio` objects in React efficiently. Initially, creating new `Audio()` instances on every keystroke caused lag and memory issues. I refactored this to use `useRef`, initializing the audio files once when the component mounts to ensure low-latency feedback without performance costs.
 
@@ -136,5 +137,6 @@ In future iterations of **VELO** and upcoming projects, I aim to focus on:
 * **Kiril Vatev (Catdad):** For creating the [canvas-confetti](https://github.com/catdad/canvas-confetti) library.
 * **The React Team:** For the excellent documentation on `useRef` and DOM manipulation, which was crucial for solving the mobile auto-scroll challenge.
 
-```
-```
+---
+
+
