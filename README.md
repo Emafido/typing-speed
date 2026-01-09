@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-<em>Desktop Landing Page</em> <img src="/og-image.png" alt="Desktop Landing Page" width="700">
+<em>Desktop Landing Page</em> <img src="./og-image.png" alt="Desktop Landing Page" width="700">
 
 <br>
 
